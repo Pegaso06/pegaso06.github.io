@@ -44,6 +44,20 @@ main {
     flex-wrap: wrap;
 }
 
+.producto {
+    width: 30%; /* Ajusta el ancho según tus necesidades */
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Un borde para cada producto */
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.producto img {
+    max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+}
+
 /* Estilos adicionales para los productos */
 
 footer {

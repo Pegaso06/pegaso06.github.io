@@ -1,4 +1,13 @@
-/* styles.css */
+/* Estilos para el logo */
+.logo {
+    float: left; /* Coloca el logo a la izquierda del nombre de la compañía */
+    margin-right: 20px; /* Espacio entre el logo y el nombre de la compañía */
+}
+
+.logo img {
+    max-width: 100px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto del logo */
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -42,6 +51,7 @@ main {
 .productos {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between; /* Espaciado uniforme entre los productos */
 }
 
 .producto {
@@ -56,13 +66,4 @@ main {
 .producto img {
     max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
     height: auto; /* Mantiene la proporción de aspecto de las imágenes */
-}
-
-/* Estilos adicionales para los productos */
-
-footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 10px 0;
 }

@@ -1,0 +1,77 @@
+/* Estilos para el logo */
+.logo {
+    float: center; /* Coloca el logo a la izquierda del nombre de la compañía */
+    margin-right: 20px; /* Espacio entre el logo y el nombre de la compañía */
+}
+
+.logo img {
+    max-width: 500px; /* Ajusta el tamaño máximo del logo según tus necesidades */
+    height: auto; /* Mantiene la proporción de aspecto del logo */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 10;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 40px; /* Incrementamos el margen derecho para aumentar la separación */
+    font-size: 20px; /* Ajustamos el tamaño de fuente a 20px (puedes ajustar según tus preferencias) */
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Espaciado uniforme entre los productos */
+}
+
+.producto {
+    width: 25%; /* Ajusta el ancho según tus necesidades */
+    margin: 16px;
+    padding: 10px;
+    border: 1px solid #ddd; /* Un borde para cada producto */
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+
+.producto img {
+    max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
+    height: auto; /* Mantiene la proporción de aspecto de las imágenes */
+}
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}

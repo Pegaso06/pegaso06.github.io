@@ -57,7 +57,9 @@ nav a {
     background-color: #333;
 }
 
-
+.producto a{
+    color:cyan;
+}
 .producto img {
     max-width: 100%; /* Ajusta el tamaño máximo de las imágenes */
     height: auto; /* Mantiene la proporción de aspecto de las imágenes */

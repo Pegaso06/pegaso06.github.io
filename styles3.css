@@ -30,13 +30,11 @@ nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
-    text-size-adjust: 40%;
 }
 
 nav ul li {
     display: inline;
     margin-right: 20px;
-    text-size-adjust: 40%;
 }
 
 nav a {
